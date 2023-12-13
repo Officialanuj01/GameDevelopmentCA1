@@ -1,0 +1,101 @@
+body{
+    font-family: 'Irish Grover', 'Courier New', Courier, monospace;
+    background-image: url("./Assests/mainBackground.png");
+}
+
+#welcome{
+    font-size: 6.4vw;
+    color: #B97DD5;
+    margin: 0vw;
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+    
+}
+#inputContainer{
+    display: flex;
+    flex-direction: column;
+    color: #FBF0F0
+}
+
+#name, #nickname{
+    height: 5vh;
+    width: 40vw;
+    border-radius: 60px;
+    position: relative;
+    top: 45vh;
+    left: 30vw;
+    font-family: 'Irish Grover', 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    background-color: #9F93ED;
+    padding-left: 2vw;
+
+}
+
+#nickname{
+    position: relative;
+    top: 50vh;
+    left: 30vw;
+    
+}
+
+#startBTN{
+    position: relative;
+    top: 58vh;
+    left: 43vw;
+    height: 7vh;
+    width: 9vw;
+    padding: 12px 24px;
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Irish Grover', 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startBTN:hover {
+    background-color: #2980b9; 
+}
+
+@media(max-width:600px){
+    body{
+        background-image: url("./Assests/mobile-Background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #welcome{
+        font-size: 11vw;
+        top: 25vh;
+        left: 25vw;
+        
+    }
+
+    #name, #nickname{
+        height: 6vh;
+        width: 60vw;
+        margin-bottom: 3vh;
+        border-radius: 60px;
+        top: 43vh;
+        left: 20vw;
+        font-size: 3vw;
+    }
+
+    #startBTN{
+        height: 6vh;
+        width: 25vw;
+        left: 35vw;
+        top: 50vh;
+        font-size: 4vw;
+        color: #FBF0F0; 
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    #startBTN:active{
+        background-color: blueviolet;
+        transform: scale(0.95);
+    }
+}

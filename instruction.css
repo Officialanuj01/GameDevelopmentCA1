@@ -1,0 +1,98 @@
+body{
+    background-image: url("./Assests/mainBackground.png");
+}
+
+#instructionCard{
+    width: 40vw;
+    height: 82vh;
+    position: absolute;
+    left: 30vw;
+    top: 10vh;
+    
+    background-color: #9F93ED;
+}
+
+#instructionHeading{
+    color: #FFF9F9;
+    font-family: 'Irish Grover', 'Courier New', Courier, monospace;
+    font-size: 4vw;
+    font-weight: 400;
+    position: relative;
+    left: 6vw;
+    top: 2vh;
+    margin: 0%;
+
+}
+
+.points{
+    color: #FFF9F9;
+    font-size: 2vw;
+    font-family: 'Irish Grover', 'Courier New', Courier, monospace;
+    margin-top: 3vh;
+}
+
+#letsGoBtn{
+    position: relative;
+    top: 1vh;
+    left: 13vw;
+    height: 7vh;
+    width: 12vw;
+    padding: 12px 24px;
+    margin-bottom: 2vh;
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Irish Grover', 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#letsGoBtn:hover{
+    scale: 1.2;
+    background-color: blue;
+}
+
+@media(max-width:600px){
+    body{
+        background-image: url("./Assests/mobile-Background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #instructionCard{
+        width: 60vw;
+        height: 60vh;
+        left: 20vw;
+        top: 15vh;
+        background-color: #9F93ED;
+    }
+
+    #instructionHeading{
+        font-size: 5vw;
+        left: 14vw;
+        margin-bottom: 5vh;
+    
+    }
+
+    .points{
+        font-size: 3vw;
+        
+    }
+
+    #letsGoBtn{
+        height: 6vh;
+        width: 25vw;
+        left: 16vw;
+        top: 2vh;
+        font-size: 4vw;
+        color: #FBF0F0; 
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    #letsGoBtn:active{
+        background-color: blueviolet;
+        transform: scale(0.95);
+    }
+}

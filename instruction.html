@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Fredoka:wght@300;400;500;600;700&family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="instruction.css">
+    <title>Instruction</title>
+</head>
+<body>
+    <main id="instructionCard">
+        <div>
+            <h1 id="instructionHeading">INSTRUCTIONS</h1>
+        </div>
+        <div>
+            <!-- list of instructions -->
+            <ul>
+                <li class="points" >You need to find two identical images in two consecutive couple of clicks</li>
+                <li class="points" >You have 40 Sec to find the pair of images</li>
+                <li class="points" >If you find 1 pair of images then you will get 1 point.</li>
+                <li class="points" >If you score more than 4 points then you win. Maximum you can score 8 points</li>
+                <li class="points" >If you score less then or equal to 3 points then you lose</li>
+            </ul>
+        </div>
+        <div>
+            <button id="letsGoBtn">Let's Go</button>
+        </div>
+        
+    </main>
+    <script>
+        // making letsGoBtn functional
+        const letsGoBtn = document.getElementById('letsGoBtn')
+        letsGoBtn.addEventListener("click",()=>{
+            location.href = './mainGame.html'
+        })
+    </script>
+</body>
+</html>
