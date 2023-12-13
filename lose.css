@@ -1,5 +1,7 @@
 body{
     background-image: url('./Assests/mainBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Irish Grover', 'Courier New', Courier, monospace;
 }
 
@@ -47,7 +49,7 @@ body{
 
 @media(max-width:600px){
     body{
-        background-image: url("./Assests/mobile-Background.png");
+        background-image: url("./Assests/moblie\ background.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -84,7 +86,7 @@ body{
 
     #Quit{
         top: 50vh;
-        left: 9vw;
+        left: 6.5vw;
     }
 
     #playAgain:active,#Quit:active{

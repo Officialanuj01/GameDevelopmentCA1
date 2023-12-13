@@ -1,6 +1,8 @@
 body{
     font-family: 'Irish Grover', 'Courier New', Courier, monospace;
     background-image: url("./Assests/mainBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #welcome{
@@ -62,7 +64,7 @@ body{
 
 @media(max-width:600px){
     body{
-        background-image: url("./Assests/mobile-Background.png");
+        background-image: url("./Assests/moblie\ background.png");
         background-size: cover;
         background-repeat: no-repeat;
     }

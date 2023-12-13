@@ -51,6 +51,6 @@ playAgain.addEventListener("click",()=>{
 })
 
 quit.addEventListener("click",()=>{
-    location.href = "./welcome.html"
+    location.href = "./index.html"
 })
 
