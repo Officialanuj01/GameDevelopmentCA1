@@ -49,7 +49,7 @@ body{
 
 @media(max-width:600px){
     body{
-        background-image: url("./Assests/moblie\ background.png");
+        background-image: url("./Assests/mobilebackground.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
