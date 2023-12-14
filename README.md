@@ -30,6 +30,7 @@ There are 4 pages in this game. Description of those are the following,
 **Special Thanks**
 
 **Versel** I have used Vercel to diployed this game for testing. link https://vercel.com/
+
 **mixkit** I have used the music from the mixkit. link https://mixkit.co/free-sound-effects/game/
 
 **Decleartions**
