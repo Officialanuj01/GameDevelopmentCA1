@@ -1,6 +1,6 @@
 # GameDevelopmentCA1
 
-**Game Description**
+## Game Description
 
 This is a memory game. When the user comes to the first page they have to give their name and nickname. After entering the name, and nickname as the user clicks on the start button the instruction appears those are necessary to play the game. If the user clicks on the letsGO button then they will be redirected to the main page where they can play the game. Based upon the performance user in the game the user will win or lose the game.
 
@@ -29,7 +29,7 @@ There are 4 pages in this game. Description of those are the following,
 
 **Special Thanks**
 
-**Versel** I have used Vercel to diployed this game for testing. link https://vercel.com/
+**Vercel** I have used Vercel to diployed this game for testing. [Deployed link](game-development-ca-1.vercel.app)
 
 **mixkit** I have used the music from the mixkit. link https://mixkit.co/free-sound-effects/game/
 
